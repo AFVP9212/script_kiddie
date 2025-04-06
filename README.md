@@ -7,6 +7,7 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 ## Contenido
 
 - [Hacking en Linux](#hacking-en-linux)
+  - [Comandos básicos de Linux](#comandos-básicos-de-linux)
   - [Post-explotación en Linux](#post-explotación-en-linux)
   - [Escalada de privilegios](#escalada-de-privilegios)
 
@@ -23,6 +24,23 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 ---
 
 ## Hacking en Linux
+
+### Comandos básicos de Linux
+- `ls` - Lista los archivos y directorios.
+- `cd` - Cambia de directorio.
+- `pwd` - Muestra la ruta del directorio actual.
+- `cp` - Copia archivos o carpetas.
+- `mv` - Mueve o renombra archivos.
+- `rm` - Elimina archivos o carpetas.
+- `chmod` - Cambia los permisos de los archivos.
+- `chown` - Cambia el propietario de un archivo.
+- `ps` / `top` - Muestra los procesos activos.
+- `netstat` - Muestra conexiones de red.
+- `ifconfig` / `ip a` - Muestra la configuración de red.
+- `grep` - Busca texto en archivos.
+- `find` / `locate` - Busca archivos en el sistema.
+- `tar` / `gzip` / `zip` - Comprime y descomprime archivos.
+- `echo` / `cat` - Muestra contenido en la terminal.
 
 ### Post-explotación en Linux
 - Técnicas para mantener el acceso en sistemas Linux comprometidos.
