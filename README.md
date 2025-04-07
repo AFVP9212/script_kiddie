@@ -37,7 +37,9 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 - ![image](https://github.com/user-attachments/assets/986754c0-9cb5-4bd6-a34d-605e363aca7e)
 - `mv` - Mueve o renombra archivos.
 - Se indica el nombre del archivo a mover o renombrar, seguido la ruta del directorio destino o su nuevo nombre.
+- ![mv](https://github.com/user-attachments/assets/c1c17f0a-98be-4395-a827-48028bb988b6)
 - `rm` - Elimina archivos o carpetas.
+- ![rm](https://github.com/user-attachments/assets/065b9afb-42b0-496d-b070-e814903a0e23)
 - `chmod` - Cambia los permisos de los archivos.
 - `chown` - Cambia el propietario de un archivo.
 - `ps` / `top` - Muestra los procesos activos.
