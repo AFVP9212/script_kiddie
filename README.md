@@ -27,14 +27,14 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 
 ### Comandos básicos de Linux
 - `ls` - Lista los archivos y directorios.
-  ![image](https://github.com/user-attachments/assets/cddb6fdf-d552-4027-a2d0-0e2fa564426f)
+- ![image](https://github.com/user-attachments/assets/cddb6fdf-d552-4027-a2d0-0e2fa564426f)
 - `cd` - Cambia de directorio.
-  ![image](https://github.com/user-attachments/assets/990fbd17-6077-483e-bb75-0067b9ef470d)
+- ![image](https://github.com/user-attachments/assets/990fbd17-6077-483e-bb75-0067b9ef470d)
 - `pwd` - Muestra la ruta del directorio actual.
-  ![image](https://github.com/user-attachments/assets/142549ff-ffca-437c-be5c-86d73db687b3)
+- ![image](https://github.com/user-attachments/assets/142549ff-ffca-437c-be5c-86d73db687b3)
 - `cp` - Copia archivos o carpetas.
 - Se indica el nombre del archivo a copiar, luego se indica la ruta del directorio en cual se copiara.
-  ![image](https://github.com/user-attachments/assets/986754c0-9cb5-4bd6-a34d-605e363aca7e)
+- ![image](https://github.com/user-attachments/assets/986754c0-9cb5-4bd6-a34d-605e363aca7e)
 - `mv` - Mueve o renombra archivos.
 - Se indica el nombre del archivo a mover o renombrar, seguido la ruta del directorio destino o su nuevo nombre.
 - `rm` - Elimina archivos o carpetas.
