@@ -27,6 +27,7 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 
 ### Comandos básicos de Linux
 - `ls` - Lista los archivos y directorios.
+- ![image](https://github.com/user-attachments/assets/cddb6fdf-d552-4027-a2d0-0e2fa564426f)
 - `cd` - Cambia de directorio.
 - `pwd` - Muestra la ruta del directorio actual.
 - `cp` - Copia archivos o carpetas.
