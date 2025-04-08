@@ -60,9 +60,9 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 
 ---
 
-## Hacking en Active Directory
+## Hacking en entornos Windows: Enfoque en Active Directory
 
-### Enumeración en Active Directory
+### 
 - Uso de `BloodHound` y `PowerView`.
 - Extracción de usuarios, grupos y GPOs.
 
