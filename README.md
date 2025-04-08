@@ -87,6 +87,7 @@ Se recopila información básica del entorno de Active Directory sin interactuar
 Aquí se empieza a interactuar con la red para obtener más detalles del dominio y sus objetos.
 
 ### Herramientas comunes:
+- `powerview`
 - `rpcclient`
 - `enum4linux`
 - `CrackMapExec`
@@ -125,7 +126,6 @@ A partir de una cuenta de usuario o acceso limitado, se intenta obtener privileg
 - **AS-REP Roasting**
 - **Pass-the-Hash**
 - **Pass-the-Ticket**
-- **Overpass-the-Hash**
 - **DCsync**
 - **Abuso de ACLs (modificar objetos del AD)**
 
@@ -138,7 +138,6 @@ Una vez con acceso elevado, se buscan otros equipos o cuentas dentro de la red p
 ### Técnicas:
 - Uso de credenciales obtenidas para acceder a otros sistemas
 - RDP, WinRM o SMB con usuarios privilegiados
-- Enumeración de redes compartidas
 - Uso de herramientas como `PsExec`, `CrackMapExec`, `Impacket`
 
 ---
@@ -149,9 +148,7 @@ Cuando se obtiene el control completo del dominio, ya sea como `Domain Admin` o 
 
 - **Golden Ticket**
 - **Silver Ticket**
-- **Skeleton Key**
-- **AdminSDHolder abuse**
-
+- 
 ---
 
 ## 7. Persistencia y exfiltración
