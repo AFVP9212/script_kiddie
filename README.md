@@ -69,47 +69,108 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 
 Funciona como una **base de datos centralizada** que almacena información sobre todos los objetos en la red (usuarios, computadoras, grupos, permisos, etc.) y permite aplicar políticas de seguridad de forma eficiente
 
-## Componentes principales
+# Fases del hacking sobre Active Directory
 
-- **Controlador de Dominio (Domain Controller):** Es el servidor principal que ejecuta el servicio de Active Directory. Se encarga de autenticar usuarios y aplicar políticas.
-- **Dominio:** Es el entorno lógico en el que se agrupan todos los objetos gestionados por AD. Cada dominio tiene al menos un controlador.
-- **Objetos:** Todo lo que administra el AD se considera un "objeto", como:
-  - Usuarios
-  - Computadoras
-  - Grupos
-  - Unidades Organizativas (OU)
-- **GPO (Group Policy Objects):** Son políticas que permiten configurar el comportamiento del sistema operativo, restringir funciones, establecer contraseñas obligatorias, entre otras.
-- **LDAP (Lightweight Directory Access Protocol):** Es el protocolo que utiliza AD para consultar y modificar la información en el directorio.
-- **Kerberos:** Es el protocolo principal que utiliza AD para la autenticación de usuarios y servicios.
+Cuando se realiza un análisis o ataque ético sobre un entorno con Active Directory, se siguen varias fases similares a las del hacking tradicional, pero con un enfoque específico en servicios y estructuras propias de Windows y el AD.
 
-## ¿Qué se puede hacer con Active Directory?
+## 1. Reconocimiento
 
-- Crear y eliminar cuentas de usuarios y equipos.
-- Administar permisos sobre usuarios, carpetas, impresoras, aplicaciones, etc. 
-- Aplicar políticas de seguridad en toda la red.
+Se recopila información básica del entorno de Active Directory sin interactuar directamente con los sistemas.
 
-## Ventajas para las empresas
+### Técnicas comunes:
+- Revisión de documentación interna (si se tiene acceso)
+- OSINT sobre el dominio
+- Identificación de nombres de dominio internos (por correos, metadatos, etc.)
 
-- **Centralización:** Todo se gestiona desde un solo lugar.
-- **Seguridad:** Permite establecer políticas de acceso y control granular.
-- **Escalabilidad:** Funciona desde pequeñas redes hasta grandes corporaciones.
-- **Automatización:** Muchas tareas administrativas se pueden automatizar.
+## 2. Enumeración
+
+Aquí se empieza a interactuar con la red para obtener más detalles del dominio y sus objetos.
+
+### Herramientas comunes:
+- `rpcclient`
+- `enum4linux`
+- `CrackMapExec`
+- `BloodHound` + `SharpHound`
+- `ldapsearch`
+
+### Información que se busca:
+- Nombre del dominio
+- Controladores de dominio
+- Listado de usuarios
+- Listado de equipos
+- Delegaciones y relaciones de confianza
+- Miembros de grupos privilegiados
 
 ---
-Active Directory es una de las piezas más críticas de la infraestructura en muchas organizaciones, lo que lo convierte en un objetivo clave tanto para la administración como para los posibles atacantes.
 
+## 3. Explotación de malas configuraciones
 
-### Ataques de Kerberos
-- Pass-the-Ticket y Kerberoasting.
-- AS-REP Roasting y `OverPass-the-Hash`.
+Se identifican y aprovechan errores comunes de configuración que permiten el acceso o la escalada de privilegios.
 
-### Escalada de privilegios en AD
-- Uso de `Privilege Escalation Paths` en AD.
-- Abuso de permisos en `Active Directory ACLs`.
+### Ejemplos:
+- Usuarios con contraseñas débiles o predecibles
+- Comparticiones SMB con permisos excesivos
+- Delegaciones inseguras
+- SPNs configurados incorrectamente
+- Usuarios con permisos excesivos sobre objetos sensibles
 
-### Persistence y Dominación
-- Uso de `Golden Ticket` y `Silver Ticket`.
-- Creación de usuarios persistentes en AD.
+---
+
+## 4. Escalada de privilegios
+
+A partir de una cuenta de usuario o acceso limitado, se intenta obtener privilegios más altos dentro del dominio.
+
+### Ataques frecuentes:
+- **Kerberoasting**
+- **AS-REP Roasting**
+- **Pass-the-Hash**
+- **Pass-the-Ticket**
+- **Overpass-the-Hash**
+- **DCsync**
+- **Abuso de ACLs (modificar objetos del AD)**
+
+---
+
+## 5. Movimiento lateral
+
+Una vez con acceso elevado, se buscan otros equipos o cuentas dentro de la red para expandir el control.
+
+### Técnicas:
+- Uso de credenciales obtenidas para acceder a otros sistemas
+- RDP, WinRM o SMB con usuarios privilegiados
+- Enumeración de redes compartidas
+- Uso de herramientas como `PsExec`, `CrackMapExec`, `Impacket`
+
+---
+
+## 6. Dominio comprometido (Domain Dominance)
+
+Cuando se obtiene el control completo del dominio, ya sea como `Domain Admin` o con técnicas avanzadas como:
+
+- **Golden Ticket**
+- **Silver Ticket**
+- **Skeleton Key**
+- **AdminSDHolder abuse**
+
+---
+
+## 7. Persistencia y exfiltración
+
+Se crean métodos para mantener el acceso y extraer información crítica sin ser detectado.
+
+### Persistencia:
+- Creación de cuentas ocultas
+- Modificación de GPOs
+- Backdoors en servicios
+
+### Exfiltración:
+- Robo de archivos sensibles
+- Dump de bases de datos del AD
+- Exfiltración usando canales encubiertos
+
+---
+
+Esta estructura es clave para entender cómo se analiza, ataca y compromete un entorno de Active Directory. En la siguiente sección se verán algunos de estos ataques aplicados en un entorno de laboratorio.
 
 ---
 
