@@ -68,8 +68,37 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 **Active Directory (AD)** es un servicio de directorio desarrollado por Microsoft que se utiliza para gestionar y organizar usuarios, equipos y recursos dentro de una red.
 
 Funciona como una **base de datos centralizada** que almacena información sobre todos los objetos en la red (usuarios, computadoras, grupos, permisos, etc.) y permite aplicar políticas de seguridad de forma eficiente
-- Uso de `BloodHound` y `PowerView`.
-- Extracción de usuarios, grupos y GPOs.
+
+## Componentes principales
+
+- **Controlador de Dominio (Domain Controller):** Es el servidor principal que ejecuta el servicio de Active Directory. Se encarga de autenticar usuarios y aplicar políticas.
+- **Dominio:** Es el entorno lógico en el que se agrupan todos los objetos gestionados por AD. Cada dominio tiene al menos un controlador.
+- **Objetos:** Todo lo que administra el AD se considera un "objeto", como:
+  - Usuarios
+  - Computadoras
+  - Grupos
+  - Unidades Organizativas (OU)
+- **GPO (Group Policy Objects):** Son políticas que permiten configurar el comportamiento del sistema operativo, restringir funciones, establecer contraseñas obligatorias, entre otras.
+- **LDAP (Lightweight Directory Access Protocol):** Es el protocolo que utiliza AD para consultar y modificar la información en el directorio.
+- **Kerberos:** Es el protocolo principal que utiliza AD para la autenticación de usuarios y servicios.
+
+## ¿Qué se puede hacer con Active Directory?
+
+- Crear y eliminar cuentas de usuarios y equipos.
+- Administar permisos sobre usuarios, carpetas, impresoras, aplicaciones, etc. 
+- Aplicar políticas de seguridad en toda la red.
+
+## Ventajas para las empresas
+
+- **Centralización:** Todo se gestiona desde un solo lugar.
+- **Seguridad:** Permite establecer políticas de acceso y control granular.
+- **Escalabilidad:** Funciona desde pequeñas redes hasta grandes corporaciones.
+- **Automatización:** Muchas tareas administrativas se pueden automatizar.
+
+---
+
+Active Directory es una de las piezas más críticas de la infraestructura en muchas organizaciones, lo que lo convierte en un objetivo clave tanto para la administración como para los posibles atacantes.
+
 
 ### Ataques de Kerberos
 - Pass-the-Ticket y Kerberoasting.
