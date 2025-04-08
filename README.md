@@ -96,7 +96,6 @@ Funciona como una **base de datos centralizada** que almacena información sobre
 - **Automatización:** Muchas tareas administrativas se pueden automatizar.
 
 ---
-
 Active Directory es una de las piezas más críticas de la infraestructura en muchas organizaciones, lo que lo convierte en un objetivo clave tanto para la administración como para los posibles atacantes.
 
 
