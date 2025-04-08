@@ -67,7 +67,7 @@ En esta fase se abordará el hacking ético en sistemas Windows, enfocándose es
 
 **Active Directory (AD)** es un servicio de directorio desarrollado por Microsoft que se utiliza para gestionar y organizar usuarios, equipos y recursos dentro de una red.
 
-Funciona como una **base de datos centralizada** que almacena información sobre todos los objetos en la red (usuarios, computadoras, grupos, permisos, etc.) y permite aplicar políticas de seguridad de forma eficiente
+Funciona como una **base de datos centralizada** que almacena información sobre todos los objetos en la red (usuarios, computadoras, grupos, permisos, etc.) y permite aplicar políticas de seguridad de forma eficiente.
 
 # Fases del hacking sobre Active Directory
 
@@ -83,7 +83,6 @@ Se recopila información básica del entorno de Active Directory sin interactuar
 - Identificación de nombres de dominio internos (por correos, metadatos, etc.)
 
 ## 2. Enumeración
-
 Aquí se empieza a interactuar con la red para obtener más detalles del dominio y sus objetos.
 
 ### Herramientas comunes:
@@ -102,10 +101,8 @@ Aquí se empieza a interactuar con la red para obtener más detalles del dominio
 - Delegaciones y relaciones de confianza
 - Miembros de grupos privilegiados
 
----
 
 ## 3. Explotación de malas configuraciones
-
 Se identifican y aprovechan errores comunes de configuración que permiten el acceso o la escalada de privilegios.
 
 ### Ejemplos:
@@ -115,7 +112,6 @@ Se identifican y aprovechan errores comunes de configuración que permiten el ac
 - SPNs configurados incorrectamente
 - Usuarios con permisos excesivos sobre objetos sensibles
 
----
 
 ## 4. Escalada de privilegios
 
@@ -129,10 +125,8 @@ A partir de una cuenta de usuario o acceso limitado, se intenta obtener privileg
 - **DCsync**
 - **Abuso de ACLs (modificar objetos del AD)**
 
----
 
 ## 5. Movimiento lateral
-
 Una vez con acceso elevado, se buscan otros equipos o cuentas dentro de la red para expandir el control.
 
 ### Técnicas:
@@ -140,7 +134,6 @@ Una vez con acceso elevado, se buscan otros equipos o cuentas dentro de la red p
 - RDP, WinRM o SMB con usuarios privilegiados
 - Uso de herramientas como `PsExec`, `CrackMapExec`, `Impacket`
 
----
 
 ## 6. Dominio comprometido (Domain Dominance)
 
@@ -148,11 +141,9 @@ Cuando se obtiene el control completo del dominio, ya sea como `Domain Admin` o 
 
 - **Golden Ticket**
 - **Silver Ticket**
-- 
----
+
 
 ## 7. Persistencia y exfiltración
-
 Se crean métodos para mantener el acceso y extraer información crítica sin ser detectado.
 
 ### Persistencia:
@@ -165,7 +156,6 @@ Se crean métodos para mantener el acceso y extraer información crítica sin se
 - Dump de bases de datos del AD
 - Exfiltración usando canales encubiertos
 
----
 
 Esta estructura es clave para entender cómo se analiza, ataca y compromete un entorno de Active Directory. En la siguiente sección se verán algunos de estos ataques aplicados en un entorno de laboratorio.
 
