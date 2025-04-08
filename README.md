@@ -63,7 +63,11 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 ## Hacking en entornos Windows: Enfoque en Active Directory
 - En esta fase se abordará el hacking ético en sistemas Windows, enfocándose específicamente en el **Active Directory (AD)**, un servicio crítico que se encuentra en la mayoría de entornos corporativos.
 
-### 
+### ¿Qué es Active Directory?
+
+**Active Directory (AD)** es un servicio de directorio desarrollado por Microsoft que se utiliza para gestionar y organizar usuarios, equipos y recursos dentro de una red.
+
+Funciona como una **base de datos centralizada** que almacena información sobre todos los objetos en la red (usuarios, computadoras, grupos, permisos, etc.) y permite aplicar políticas de seguridad de forma eficiente
 - Uso de `BloodHound` y `PowerView`.
 - Extracción de usuarios, grupos y GPOs.
 
