@@ -61,6 +61,7 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 ---
 
 ## Hacking en entornos Windows: Enfoque en Active Directory
+- En esta fase se abordará el hacking ético en sistemas Windows, enfocándose específicamente en el **Active Directory (AD)**, un servicio crítico que se encuentra en la mayoría de entornos corporativos.
 
 ### 
 - Uso de `BloodHound` y `PowerView`.
