@@ -243,7 +243,7 @@ Esta estructura es clave para entender cómo se analiza, ataca y compromete un e
 
 ---
 
-## Sitios para aprender CTFs
+## Sitios web para aprender a resolver CTFs
 
 - [Hack The Box](https://www.hackthebox.com/)
 - [TryHackMe](https://tryhackme.com/)
@@ -254,7 +254,7 @@ Esta estructura es clave para entender cómo se analiza, ataca y compromete un e
 
 ---
 
-## Sitios de documentación de vulnerabilidades
+## Sitios web de documentación de vulnerabilidades
 
 - [Exploit-DB](https://www.exploit-db.com/)
 - [Mitre CVE](https://cve.mitre.org/)
