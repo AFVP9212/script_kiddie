@@ -11,8 +11,9 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
   - [Servicios básicos en Linux](#servicios-básicos-en-linux)
   - [Herramientas de enumeración en Linux](#herramientas-de-enumeración-en-linux)
   - [Herramientas de explotación en Linux](#herramientas-de-explotación-en-linux)
-  - [Post-explotación en Linux](#post-explotación-en-linux)
   - [Escalada de privilegios](#escalada-de-privilegios)
+  - [Post-explotación en Linux](#post-explotación-en-linux)
+  
 
 - [Hacking en entornos Windows: Enfoque en Active Directory](#hacking-en-entornos-windows-enfoque-en-active-directory)
   - [Fases del hacking sobre Active Directory](#fases-del-hacking-sobre-active-directory)
