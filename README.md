@@ -207,6 +207,9 @@ Esta estructura es clave para entender cómo se analiza, ataca y compromete un e
 ### Enumeración y reconocimiento
 - Uso de `awscli`.
 
+## Comandos utiles en awscli
+- Aqui se podran consultar [comandos utiles](https://github.com/0x04e1/AWS-Enum) en la `awscli`.
+
 ### Explotación de IAM
 - Extracción y abuso de credenciales en `AWS IAM`.
 - Uso de `Lambda`, `EC2` y `S3` para acceso persistente.
