@@ -24,9 +24,10 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
   - [Enumeración y reconocimiento](#enumeración-y-reconocimiento)
   - [Comandos utiles en awscli](#comandos-utiles-en-awscli)
   - [Explotación de IAM](#explotación-de-iam)
+  - [Documentación sobre hacking en aws](#documentación-sobre-hacking-en-aws)
 
 - [Vulnerabilidades Web](#vulnerabilidades-web)
-  - [Herramientas de explotación Web](#herramientas-de-explotación-web)
+- [Herramientas de explotación Web](#herramientas-de-explotación-web)
 - [Sitios web para aprender a resolver CTFs](#sitios-web-para-aprender-a-resolver-ctfs)
 - [Sitios web de documentación de vulnerabilidades](#sitios-web-de-documentación-de-vulnerabilidades)
 ---
@@ -210,12 +211,15 @@ Esta estructura es clave para entender cómo se analiza, ataca y compromete un e
 - Aqui podremos descargar la [awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 - Uso de la metadata con la dirección: http://169.254.169.254
 
-## Comandos utiles en awscli
+### Comandos utiles en awscli
 - Aqui se podran consultar [comandos utiles](https://github.com/0x04e1/AWS-Enum) en la `awscli`.
 
 ### Explotación de IAM
 - Extracción y abuso de credenciales en `AWS IAM`.
 - Uso de `Lambda`, `EC2` y `S3` para acceso persistente.
+
+### Documentación sobre hacking en aws.
+- [Ethical Hacking en AWS](https://books.spartan-cybersec.com/cpna)
 
 ---
 
