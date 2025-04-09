@@ -22,6 +22,7 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 
 - [Hacking en AWS](#hacking-en-aws)
   - [Enumeración y reconocimiento](#enumeración-y-reconocimiento)
+  - [Comandos utiles en awscli](#comandos-utiles-en-awscli)
   - [Explotación de IAM](#explotación-de-iam)
 
 - [Vulnerabilidades Web](#vulnerabilidades-web)
