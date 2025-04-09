@@ -93,6 +93,8 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 - `GTFObins` - Recolección de binarios que pueden ser explotados.
 - `pwndbg` + `gdb` - Depuración avanzada para binarios vulnerables.
 - `dirtycow`, `overlayfs`, `polkit` - Ejemplos de exploits locales.
+- - [revshells.com](https://www.revshells.com/):  
+  Sitio web para generar *reverse shells* automáticamente en diferentes lenguajes (bash, python, php, powershell, etc).
 
 ### Post-explotación en Linux
 - Técnicas para mantener el acceso en sistemas Linux comprometidos.
