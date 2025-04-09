@@ -12,10 +12,9 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
   - [Escalada de privilegios](#escalada-de-privilegios)
 
 - [Hacking en entornos Windows: Enfoque en Active Directory](#hacking-en-entornos-windows-enfoque-en-active-directory)
-  - [Enumeración en Active Directory](#enumeración-en-active-directory)
-  - [Ataques de Kerberos](#ataques-de-kerberos)
-  - [Escalada de privilegios en AD](#escalada-de-privilegios-en-ad)
-  - [Persistence y Dominación](#persistence-y-dominación)
+  . [¿Qué es Active Directory?](#que-es-active-directory)
+  - [Fases del hacking sobre Active Directory](#fases-del-hacking-sobre-active-directory) 
+
 
 - [Hacking en AWS](#hacking-en-aws)
   - [Enumeración y reconocimiento](#enumeración-y-reconocimiento)
