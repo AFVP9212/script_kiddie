@@ -12,7 +12,7 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
   - [Escalada de privilegios](#escalada-de-privilegios)
 
 - [Hacking en entornos Windows: Enfoque en Active Directory](#hacking-en-entornos-windows-enfoque-en-active-directory)
-  - [¿Qué es Active Directory?](#¿que-es-active-directory?)
+  - [¿Qué es Active Directory?](#que-es-active-directory)
   - [Fases del hacking sobre Active Directory](#fases-del-hacking-sobre-active-directory) 
 
 
@@ -40,10 +40,15 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 - `rm` - Elimina archivos o carpetas.
 - ![rm](https://github.com/user-attachments/assets/065b9afb-42b0-496d-b070-e814903a0e23)
 - `chmod` - Cambia los permisos de los archivos.
+- se usa la flag `+x` para otorgar permiso de ejecución.
+- ![image](https://github.com/user-attachments/assets/1c12e3ed-ea6b-4219-8b40-80a457f21b69)
 - `chown` - Cambia el propietario de un archivo.
+- ![image](https://github.com/user-attachments/assets/d2dbc42f-7a27-4251-bd03-6ea8e3809c25)
 - `ps` / `top` - Muestra los procesos activos.
+- ![image](https://github.com/user-attachments/assets/5869aa0d-fba1-4cd3-ba46-c619f7a41de3)
 - `netstat` - Muestra conexiones de red.
 - `ifconfig` / `ip a` - Muestra la configuración de red.
+- ![image](https://github.com/user-attachments/assets/16ecd1d1-2c47-43b6-adef-c6de14163a6a)
 - `grep` - Busca texto en archivos.
 - `find` / `locate` - Busca archivos en el sistema.
 - `tar` / `gzip` / `zip` - Comprime y descomprime archivos.
