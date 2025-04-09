@@ -7,19 +7,26 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 ## Contenido
 
 - [Hacking en Linux](#hacking-en-linux)
-  - [Comandos básicos de Linux](#comandos-básicos-de-linux)
+  - [Comandos básicos en Linux](#comandos-básicos-de-linux)
+  - [Servicios básicos en Linux](#servicios-básicos-en-linux)
+  - [Herramientas de enumeración en Linux](#herramientas-de-enumeración-en-linux)
+  - [Herramientas de explotación en Linux](#herramientas-de-explotación-en-linux)
   - [Post-explotación en Linux](#post-explotación-en-linux)
   - [Escalada de privilegios](#escalada-de-privilegios)
 
 - [Hacking en entornos Windows: Enfoque en Active Directory](#hacking-en-entornos-windows-enfoque-en-active-directory)
-  - [¿Qué es Active Directory?](#que-es-active-directory)
-  - [Fases del hacking sobre Active Directory](#fases-del-hacking-sobre-active-directory) 
+  - [Fases del hacking sobre Active Directory](#fases-del-hacking-sobre-active-directory)
+  - [Documentación de vulnerabilidades en AD](#documentación-de-vulnerabilidades-en-ad)
 
 
 - [Hacking en AWS](#hacking-en-aws)
   - [Enumeración y reconocimiento](#enumeración-y-reconocimiento)
   - [Explotación de IAM](#explotación-de-iam)
 
+- [Vulnerabilidades Web](#vulnerabilidades-web)
+  - [Herramientas de explotación Web](#herramientas-de-explotación-web)
+- [Sitios web para aprender a resolver CTFs](#sitios-web-para-aprender-a-resolver-ctfs)
+- [Sitios web de documentación de vulnerabilidades](#sitios-web-de-documentación-de-vulnerabilidades)
 ---
 
 ## Hacking en Linux
@@ -54,14 +61,38 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 - `tar` / `gzip` / `zip` - Comprime y descomprime archivos.
 - `echo` / `cat` - Muestra contenido en la terminal.
 
-### Post-explotación en Linux
-- Técnicas para mantener el acceso en sistemas Linux comprometidos.
-
 ### Escalada de privilegios
 - Explotación de binarios con `SUID` y `sudo` mal configurados.
 - ```sudo -l ``` `sudo su`
 - Vulnerabilidades Kernel y explotación de `CVE` relevantes.
 
+### Servicios básicos en Linux
+- `ssh` - Protocolo para conexión remota segura.
+- `apache2` / `nginx` - Servidores web comunes.
+- `mysql` / `postgresql` - Sistemas de gestión de bases de datos.
+- `cron` - Programación de tareas automáticas.
+- `rsyslog` / `journald` - Servicios de logging.
+- `ufw` / `firewalld` - Control de firewall.
+- `vsftpd` - Servidor FTP seguro.
+
+### Herramientas de enumeración en Linux
+- `linpeas` - Script de enumeración para escalada de privilegios.
+- `pspy` - Monitorea procesos sin requerir privilegios root.
+- `netstat` / `ss` - Inspección de puertos y conexiones.
+- `lsof` - Verifica archivos abiertos.
+- `enum4linux` - Recolección de información sobre servicios Samba.
+- `nmap` - Escaneo de puertos y servicios.
+
+### Herramientas de explotación en Linux
+- `exploitdb` - Base de datos de exploits públicos.
+- `searchsploit` - Busca exploits en la base de datos local.
+- `Metasploit Framework` - Plataforma de desarrollo de exploits.
+- `GTFObins` - Recolección de binarios que pueden ser explotados.
+- `pwndbg` + `gdb` - Depuración avanzada para binarios vulnerables.
+- `dirtycow`, `overlayfs`, `polkit` - Ejemplos de exploits locales.
+
+### Post-explotación en Linux
+- Técnicas para mantener el acceso en sistemas Linux comprometidos.
 ---
 
 # Hacking en entornos Windows: Enfoque en Active Directory
@@ -163,6 +194,11 @@ Se crean métodos para mantener el acceso y extraer información crítica sin se
 
 Esta estructura es clave para entender cómo se analiza, ataca y compromete un entorno de Active Directory. En la siguiente sección se verán algunos de estos ataques aplicados en un entorno de laboratorio.
 
+### Documentación de vulnerabilidades en AD
+- [Harmj0y Blog](https://www.harmj0y.net/blog/)
+- [SpecterOps Blog](https://posts.specterops.io/)
+- [AdSecurity](https://adsecurity.org/)
+
 ---
 
 ## Hacking en AWS
@@ -184,8 +220,49 @@ Esta estructura es clave para entender cómo se analiza, ataca y compromete un e
 ##  Recursos y Referencias
 - [HackTricks](https://book.hacktricks.xyz/)
 
+---
+
+##  Vulnerabilidades Web
+
+- SQL Injection (SQLi)
+- Cross-Site Scripting (XSS)
+- Remote Code Execution (RCE)
+- Server-Side Request Forgery (SSRF)
+- Directory Traversal
+- CSRF, Insecure Deserialization, LFI/RFI
+
+### Herramientas de explotación Web
+- `Burp Suite`
+- `SQLmap`
+- `XSStrike`
+- `WFuzz` / `ffuf`
+- `Nikto`
+- `OWASP ZAP`
+- `dirsearch`
 
 ---
+
+## Sitios para aprender CTFs
+
+- [Hack The Box](https://www.hackthebox.com/)
+- [TryHackMe](https://tryhackme.com/)
+- [Root-Me](https://www.root-me.org/)
+- [CTFtime](https://ctftime.org/)
+- [PicoCTF](https://picoctf.org/)
+- [OverTheWire](https://overthewire.org/wargames/)
+
+---
+
+## Sitios de documentación de vulnerabilidades
+
+- [Exploit-DB](https://www.exploit-db.com/)
+- [Mitre CVE](https://cve.mitre.org/)
+- [NVD](https://nvd.nist.gov/)
+- [Rapid7 Vulnerability DB](https://www.rapid7.com/db/)
+- [PacketStorm](https://packetstormsecurity.com/)
+
+---
+
 
 ⚠️ Este repositorio es solo para fines educativos y de aprendizaje. El uso indebido de estas técnicas es ilegal.
 
