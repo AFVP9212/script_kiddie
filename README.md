@@ -11,7 +11,7 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
   - [Post-explotación en Linux](#post-explotación-en-linux)
   - [Escalada de privilegios](#escalada-de-privilegios)
 
-- [Hacking en entornos Windows: Enfoque en Active Directory](#hacking-en-entornos-windows:-enfoque-en-active-directory)
+- [Hacking en entornos Windows: Enfoque en Active Directory](#hacking-en-entornos-windows-enfoque-en-active-directory)
   - [Enumeración en Active Directory](#enumeración-en-active-directory)
   - [Ataques de Kerberos](#ataques-de-kerberos)
   - [Escalada de privilegios en AD](#escalada-de-privilegios-en-ad)
