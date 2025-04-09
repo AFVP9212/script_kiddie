@@ -12,7 +12,7 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
   - [Escalada de privilegios](#escalada-de-privilegios)
 
 - [Hacking en entornos Windows: Enfoque en Active Directory](#hacking-en-entornos-windows-enfoque-en-active-directory)
-  . [¿Qué es Active Directory?](#que-es-active-directory)
+  - [¿Qué es Active Directory?](#¿que-es-active-directory?)
   - [Fases del hacking sobre Active Directory](#fases-del-hacking-sobre-active-directory) 
 
 
