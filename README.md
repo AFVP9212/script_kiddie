@@ -208,6 +208,7 @@ Esta estructura es clave para entender cómo se analiza, ataca y compromete un e
 ### Enumeración y reconocimiento
 - Uso de `awscli`.
 - Aqui podremos descargar la [awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
+- Uso de la metadata con la dirección: http://169.254.169.254
 
 ## Comandos utiles en awscli
 - Aqui se podran consultar [comandos utiles](https://github.com/0x04e1/AWS-Enum) en la `awscli`.
