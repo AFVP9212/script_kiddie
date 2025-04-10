@@ -11,7 +11,7 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
   - [Servicios básicos en Linux](#servicios-básicos-en-linux)
   - [Herramientas de enumeración en Linux](#herramientas-de-enumeración-en-linux)
   - [Herramientas de explotación en Linux](#herramientas-de-explotación-en-linux)
-  - [Escalada de privilegios](#escalada-de-privilegios)
+  - [Escalamiento de privilegios](#escalamiento-de-privilegios)
   - [Post-explotación en Linux](#post-explotación-en-linux)
   
 
@@ -28,7 +28,13 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 
 - [Vulnerabilidades Web](#vulnerabilidades-web)
 - [Herramientas de explotación Web](#herramientas-de-explotación-web)
+
+- [Requisitos y Herramientas](#requisitos-y-herramientas)
+
+- [Recursos y Referencias](#recursos-y-referencias)
+
 - [Sitios web para aprender a resolver CTFs](#sitios-web-para-aprender-a-resolver-ctfs)
+
 - [Sitios web de documentación de vulnerabilidades](#sitios-web-de-documentación-de-vulnerabilidades)
 ---
 
@@ -64,10 +70,12 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 - `tar` / `gzip` / `zip` - Comprime y descomprime archivos.
 - `echo` / `cat` - Muestra contenido en la terminal.
 
-### Escalada de privilegios
+### Escalamiento de privilegios
 - Explotación de binarios con `SUID` y `sudo` mal configurados.
-- ```sudo -l ``` `sudo su`
+- Web recomendada para la explotacion de binarios: [GTFOBins](https://gtfobins.github.io/)
+- ```sudo -l ``` `sudo su` para la comprobación de permisos que tiene el usuario.
 - Vulnerabilidades Kernel y explotación de `CVE` relevantes.
+- Web recomendada para buscar vulnerabilidades de kernel y explotaciones: [Exploit Database](https://www.exploit-db.com/)
 
 ### Servicios básicos en Linux
 - `ssh` - Protocolo para conexión remota segura.
@@ -80,6 +88,7 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 
 ### Herramientas de enumeración en Linux
 - `linpeas` - Script de enumeración para escalada de privilegios.
+- Descarga [linpeas](https://github.com/peass-ng/PEASS-ng/releases/tag/20250401-a1b119bc)
 - `pspy` - Monitorea procesos sin requerir privilegios root.
 - `netstat` / `ss` - Inspección de puertos y conexiones.
 - `lsof` - Verifica archivos abiertos.
@@ -93,7 +102,7 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 - `GTFObins` - Recolección de binarios que pueden ser explotados.
 - `pwndbg` + `gdb` - Depuración avanzada para binarios vulnerables.
 - `dirtycow`, `overlayfs`, `polkit` - Ejemplos de exploits locales.
-- `revshells.com` - Sitio web para generar *reverse shells* automáticamente en diferentes lenguajes (bash, python, php, powershell, etc).
+- Sitio web para generar *reverse shells* automáticamente en diferentes lenguajes (bash, python, php, powershell, etc): [Reverse Shell Generator](https://www.revshells.com/)
 
 ### Post-explotación en Linux
 - Técnicas para mantener el acceso en sistemas Linux comprometidos.
@@ -199,6 +208,7 @@ Se crean métodos para mantener el acceso y extraer información crítica sin se
 Esta estructura es clave para entender cómo se analiza, ataca y compromete un entorno de Active Directory. En la siguiente sección se verán algunos de estos ataques aplicados en un entorno de laboratorio.
 
 ### Documentación de vulnerabilidades en AD
+- [Hacking Articles](https://www.hackingarticles.in/)
 - [Harmj0y Blog](https://www.harmj0y.net/blog/)
 - [SpecterOps Blog](https://posts.specterops.io/)
 - [AdSecurity](https://adsecurity.org/)
@@ -224,16 +234,6 @@ Esta estructura es clave para entender cómo se analiza, ataca y compromete un e
 
 ---
 
-## Requisitos y Herramientas
-- **Linux:** Kali Linux, ParrotOS.
-- **Active Directory:** Windows Server 2016/2019, BloodHound, Mimikatz.
-- **AWS:** AWS CLI.
-
-##  Recursos y Referencias
-- [HackTricks](https://book.hacktricks.xyz/)
-
----
-
 ##  Vulnerabilidades Web
 
 - SQL Injection (SQLi)
@@ -251,6 +251,16 @@ Esta estructura es clave para entender cómo se analiza, ataca y compromete un e
 - `Nikto`
 - `OWASP ZAP`
 - `dirsearch`
+
+---
+
+## Requisitos y Herramientas
+- **Linux:** Kali Linux, ParrotOS.
+- **Active Directory:** Windows Server 2016/2019, BloodHound, Mimikatz.
+- **AWS:** AWS CLI.
+
+##  Recursos y Referencias
+- [HackTricks](https://book.hacktricks.xyz/)
 
 ---
 
