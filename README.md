@@ -26,7 +26,7 @@ Aquí encontrarás recursos, técnicas y guías sobre hacking en Linux, Active D
   - [Documentación sobre hacking en aws](#documentación-sobre-hacking-en-aws)
 
 - [Vulnerabilidades Web](#vulnerabilidades-web)
-- [Herramientas de explotación Web](#herramientas-de-explotación-web)
+  - [Herramientas de explotación Web](#herramientas-de-explotación-web)
 
 - [Requisitos y Herramientas](#requisitos-y-herramientas)
 
