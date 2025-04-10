@@ -41,7 +41,7 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 
 ## Hacking en Linux
 
-### Distribuciones de Linux para Ciberseguridad
+### Distribuciones de linux orientadas a la ciberseguridad y hacking
 
 | Distribución         | Enlace oficial                              | Enfoque principal                             |
 |----------------------|---------------------------------------------|-----------------------------------------------|
