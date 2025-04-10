@@ -7,6 +7,7 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 ## Contenido
 
 - [Hacking en Linux](#hacking-en-linux)
+  - [Distribuciones de linux orientadas a la ciberseguridad y hacking](#distribuciones-de-linux-orientadas-a-la-ciberseguridad-y-hacking)
   - [Comandos básicos en Linux](#comandos-básicos-de-linux)
   - [Servicios básicos en Linux](#servicios-básicos-en-linux)
   - [Herramientas de enumeración en Linux](#herramientas-de-enumeración-en-linux)
@@ -39,6 +40,17 @@ Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking é
 ---
 
 ## Hacking en Linux
+
+### Distribuciones de Linux para Ciberseguridad
+
+| Distribución         | Enlace oficial                              | Enfoque principal                             |
+|----------------------|---------------------------------------------|-----------------------------------------------|
+| Kali Linux           | [kali.org](https://www.kali.org)            | Pentesting y auditoría de seguridad           |
+| Parrot Security OS   | [parrotsec.org](https://www.parrotsec.org)  | Privacidad, desarrollo, análisis forense      |
+| BlackArch Linux      | [blackarch.org](https://www.blackarch.org)  | Pentesting avanzado basado en Arch            |
+| BackBox              | [backbox.org](https://www.backbox.org)      | Auditoría y análisis forense                  |
+| DEFT Linux           | [deftlinux.net](http://www.deftlinux.net)   | Informática forense digital                   |
+| CAINE                | [caine-live.net](https://www.caine-live.net)| Análisis forense digital e investigaciones    |
 
 ### Comandos básicos de Linux
 - `ls` - Lista los archivos y directorios.
