@@ -1,8 +1,6 @@
-# script_kiddie
+# script_kiddie Red Team
 Este repositorio está dedicado al aprendizaje y desarrollo de habilidades en el ámbito del hacking ético.
-# Hacking & Cybersecurity Repository
-
-Bienvenido a este repositorio dedicado al aprendizaje y práctica del hacking ético en diversas plataformas y entornos. Aquí encontrarás recursos, técnicas y guías sobre hacking en Linux, Active Directory y AWS.
+Aquí encontrarás recursos, técnicas y guías sobre hacking en Linux, Active Directory y AWS.
 
 ## Contenido
 
