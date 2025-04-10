@@ -28,6 +28,8 @@ Aquí encontrarás recursos, técnicas y guías sobre hacking en Linux, Active D
 - [Vulnerabilidades Web](#vulnerabilidades-web)
   - [Herramientas de explotación Web](#herramientas-de-explotación-web)
 
+- [Descarga nuestra maquina virtual](#descarga-nuestra-maquina-virtual)
+
 - [Requisitos y Herramientas](#requisitos-y-herramientas)
 
 - [Recursos y Referencias](#recursos-y-referencias)
@@ -259,6 +261,11 @@ Esta estructura es clave para entender cómo se analiza, ataca y compromete un e
 - `Nikto`
 - `OWASP ZAP`
 - `dirsearch`
+
+---
+
+## Descarga nuestra maquina virtual
+-[Descargala aqui](https://soysena-my.sharepoint.com/:u:/g/personal/andres_velez99_soy_sena_edu_co/EWv8rcU5M-FMoeV6zk_-QxABOfTfrPLK6bMnfkrWJGwKDQ?e=7BhsKj)
 
 ---
 
